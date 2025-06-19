@@ -169,12 +169,9 @@ function WeatherApp() {
     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
 
       {loading && (
-        <div>
-          <div>
-            Loading...
-          </div>
-        
-          {console.log('i am here at the if loading')}
+        <div className={styles.loadingContainer}>
+          <div className={styles.loadingSpinner}></div>
+          <h2>Loading weather data...</h2>
         </div>
       )}
 
