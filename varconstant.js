@@ -1,0 +1,1 @@
+export const APILink = "https://goweather.herokuapp.com/weather";
